@@ -1,12 +1,4 @@
 /*Wiw's navigation*/
-h1 {
-    font-family: 'lunchtime_doubly_soregular';
-}
-
-p {
-    font-family: 'orange_kidregular';
-}
-
 nav ul{
     list-style-type: none; 
 }
@@ -43,6 +35,16 @@ nav ul li a:hover{
 
 #bottom {
     background-color: green;
+}
+
+/* Dan-kun */
+
+h1 {
+    font-family: 'lunchtime_doubly_soregular';
+}
+
+p {
+    font-family: 'orange_kidregular';
 }
 
 @font-face {
