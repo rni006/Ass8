@@ -1,6 +1,5 @@
 /*Wiw's navigation*/
 
-
 ul {
     list-style-type:none;
     margin:0;
@@ -118,19 +117,34 @@ p {
     font-family: 'orange_kidregular';
 }
 
-@font-face {
-    font-family: 'manaspaceregular';
-    src: url('../fonts/manaspc-webfont.woff2') format('woff2'),
-         url('../fonts/manaspc-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+body {
+    animation-name: fadeInn;
+    animation-duration: 3s;
+}
 
+@keyframes fadeInn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }    
 }
 
 @font-face {
     font-family: 'manaspaceregular';
     src: url('../fonts/manaspc-webfont.woff2') format('woff2'),
-         url('../fonts/manaspc-webfont.woff') format('woff');
+        url('../fonts/manaspc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'manaspaceregular';
+    src: url('../fonts/manaspc-webfont.woff2') format('woff2'),
+        url('../fonts/manaspc-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
