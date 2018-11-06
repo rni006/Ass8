@@ -141,7 +141,6 @@ footer {
     }    
 }
 
-
 @font-face {
     font-family: 'manaspaceregular';
     src: url('../fonts/manaspc-webfont.woff2') format('woff2'),
@@ -312,4 +311,3 @@ section {
 body {
     margin: 0;
 }
-
