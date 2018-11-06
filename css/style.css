@@ -86,7 +86,7 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 /*Responsive Styles*/
-@media screen and (max-width : 760px) and (orientation: landscape) {
+@media screen and (max-width : 760px) and (orientation: portrait) {
     /*Make dropdown links appear inline*/
     ul {
         position: static;
@@ -117,9 +117,13 @@ p {
     font-family: 'orange_kidregular';
 }
 
-body {
+p, img {
     animation-name: fadeInn;
     animation-duration: 3s;
+}
+
+nav {
+    
 }
 
 @keyframes fadeInn {
