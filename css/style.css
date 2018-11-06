@@ -128,6 +128,8 @@ footer {
     width: 100%;
     color: #573C33;
     text-align: center;
+    font-family: 'orange_kidregular';    
+    font-size: 26px;
 }
 
 @keyframes fadeInn {
@@ -138,7 +140,7 @@ footer {
         opacity: 0.8;
     }    
 }
-    
+
 
 @font-face {
     font-family: 'manaspaceregular';
