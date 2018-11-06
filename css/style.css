@@ -123,12 +123,10 @@ p, img {
 }
 
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #573C33;
-    color: #E7E0D8;
+    color: #573C33;
     text-align: center;
 }
 
