@@ -27,7 +27,7 @@ li a {
     height: 50px;
     text-align: center;
     line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'orange-kidregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #573C33;
     background: #fff;
     text-decoration: none;
@@ -110,11 +110,11 @@ input[type=checkbox]:checked ~ #menu{
 /* Dan-kun */
 
 h1 {
-    font-family: 'manaspaceregular';
+    font-family: 'manaspaceregular', 'sans-serif';
 }
 
 p {
-    font-family: 'orange_kidregular';
+    font-family: 'orange_kidregular', 'sans-serif';
 }
 
 p, img {
@@ -128,7 +128,7 @@ footer {
     width: 100%;
     color: #573C33;
     text-align: center;
-    font-family: 'orange_kidregular';    
+    font-family: 'orange_kidregular', 'sans-serif';    
     font-size: 26px;
 }
 
@@ -142,7 +142,7 @@ footer {
 }
 
 @font-face {
-    font-family: 'manaspaceregular';
+    font-family: 'manaspaceregular', 'sans-serif';
     src: url('../fonts/manaspc-webfont.woff2') format('woff2'),
         url('../fonts/manaspc-webfont.woff') format('woff');
     font-weight: normal;
